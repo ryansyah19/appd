@@ -671,6 +671,7 @@ nav {
     font-weight: 749;
     line-height: 38px;
     width: 85%;
+	font-family: 'Raleway', sans-serif;
 }
 
 .love img {
@@ -934,6 +935,7 @@ ul{
     background-size: cover;
     margin-left: 60px;
     margin-right: 60px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .aa img {
