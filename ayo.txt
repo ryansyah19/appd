@@ -1,0 +1,11 @@
+notepad++
+toptracker
+github
+google chrome
+mozilla
+coreldraw
+anyvideo
+
+idm
+xampp
+staruml
