@@ -143,6 +143,7 @@ nav {
   left: -18em;
   top: 824px;
   padding-top: 5em;
+  height: 377px;
   box-sizing: border-box;
   z-index: 20;
   height: 100%;
@@ -152,7 +153,8 @@ nav {
 }
 
 nav.active { left: 0;
-			top:824px;}
+			top:824px;
+			 height: 377px;}
 
 #mobile-nav {
     background: url(menu-icon.png);
@@ -450,6 +452,7 @@ nav.active { left: 0;
 nav.active {
     left: 0;
     top: 938px;
+	height: 397px;
 }
 
 nav {
@@ -461,7 +464,6 @@ nav {
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
-  height: 100%;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
@@ -635,7 +637,8 @@ nav {
 
 nav.active {
     left: 0;
-    top: 1032px;
+    top: 1022px;
+    height: 476px;
 }
 
 nav {
@@ -643,7 +646,8 @@ nav {
   padding-right: .25em;
   position: absolute;
   left: -18em;
-  top: 1032px;
+  top: 1022px;
+  height: 476px;
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
@@ -708,6 +712,7 @@ nav {
 nav.active {
     left: 0;
     top: 1205px;
+	height: 506px;
 }
 
 nav {
@@ -716,6 +721,7 @@ nav {
   position: absolute;
   left: -18em;
   top: 1205px;
+  height: 506px;
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
@@ -994,14 +1000,15 @@ ul{
     left: 4em;
     height: 30px;
     position: absolute;
-    top: 2137px;
+    top: 1690px;
     width: 30px;
     z-index: 30;
 }
 
 nav.active {
     left: 0;
-    top: 2063px;
+    top: 1630px;
+	height: 655px;
 
 }
 
@@ -1010,7 +1017,7 @@ nav {
   padding-right: .25em;
   position: absolute;
   left: -18em;
-  top: 2063px;
+  top: 1630px;
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
@@ -1050,4 +1057,41 @@ ul {
     margin-top: 25px;
     padding-bottom: 20px;
 }
+}
+
+
+@media (min-width: 1024px){
+#mobile-nav {
+    background: url(menu-icon.png);
+    cursor: pointer;
+    left: 4em;
+    height: 30px;
+    position: absolute;
+    top: 2135px;
+    width: 30px;
+    z-index: 30;
+}
+
+nav.active {
+    left: 0;
+    top: 2063px;
+	height: 724px;
+
+}
+
+nav {
+  background: rgba(41,128,185,1);
+  padding-right: .25em;
+  position: absolute;
+  left: -18em;
+  top: 2063px;
+  padding-top: 5em;
+  box-sizing: border-box;
+  z-index: 20;
+  height: 100%;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
 }
