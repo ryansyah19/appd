@@ -637,6 +637,7 @@ nav.active {
     left: 0;
     top: 1032px;
 }
+
 nav {
   background: rgba(41,128,185,1);
   padding-right: .25em;
@@ -690,6 +691,67 @@ nav {
     margin-bottom: 6px;
 }
 }
+
+@media (min-width: 532px){
+	#mobile-nav {
+    background: url(menu-icon.png);
+    cursor: pointer;
+    left: 3em;
+    height: 30px;
+    position: absolute;
+    top: 1255px;
+    width: 30px;
+    z-index: 30;
+}
+
+nav.active {
+    left: 0;
+    top: 1205px;
+}
+
+nav {
+  background: rgba(41,128,185,1);
+  padding-right: .25em;
+  position: absolute;
+  left: -18em;
+  top: 1205px;
+  padding-top: 5em;
+  box-sizing: border-box;
+  z-index: 20;
+  height: 100%;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+ul {
+	padding-top:20px;
+}
+
+.yesella {
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Abel', sans-serif;
+    margin-left: -270px;
+    padding-top: 55px;
+}
+
+.love img {
+    width: 32px;
+    margin-bottom: 4px;
+    margin-left: 40px;
+}
+
+.icon img {
+    width: 45px;
+    margin-left: 40px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+}
+
 
 @media (min-width: 768px){
 	.hai {
