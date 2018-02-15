@@ -143,10 +143,8 @@ nav {
   left: -18em;
   top: 824px;
   padding-top: 5em;
-  height: 377px;
   box-sizing: border-box;
   z-index: 20;
-  height: 100%;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
@@ -651,7 +649,6 @@ nav {
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
-  height: 100%;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
@@ -725,7 +722,6 @@ nav {
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
-  height: 100%;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
@@ -798,7 +794,6 @@ nav {
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
-  height: 100%;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
@@ -1021,7 +1016,6 @@ nav {
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
-  height: 100%;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
@@ -1088,7 +1082,6 @@ nav {
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
-  height: 100%;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
