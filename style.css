@@ -696,6 +696,18 @@ nav {
 }
 
 @media (min-width: 532px){
+	
+.yesew {
+    padding-left: 7%;
+    padding-top: 2%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 749;
+    line-height: 42px;
+    width: 85%;
+    font-family: 'Raleway', sans-serif;
+}
+
 	#mobile-nav {
     background: url(menu-icon.png);
     cursor: pointer;
