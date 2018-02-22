@@ -145,8 +145,8 @@ body {
     list-style: none;
     line-height: 16px;
     margin: auto;
-    padding-left: 53px;
     width: 15em;
+	font-size:16px;
 }
 
 .menu a {
@@ -431,7 +431,7 @@ nav.active { left: 0;
 .aa img{
 	width:35px;
 	margin-left:25px;
-	margin-bottom: 6px;
+	margin-bottom: -10px;
 }
 
 .aa h4{
@@ -461,7 +461,7 @@ nav.active { left: 0;
 
 .love img{
 	width:24px;
-    margin-bottom: 6px;
+    margin-bottom: -7px;
     margin-left: 24px;
 }
 
@@ -473,6 +473,31 @@ nav.active { left: 0;
 }
 
 @media (min-width: 375px){
+	
+*[data-animation="ripple"] {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 260px;
+    font-size: 25px;
+    display: block;
+    outline: none;
+    padding: 18px;
+    color: white;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.3);
+    border: solid 3px;
+    border-color: white;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 14px;
+    font-family: roboto, helvetica;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
 	
 .yup {
     width: 29%;
@@ -497,14 +522,14 @@ nav.active { left: 0;
     left: 2em;
     height: 30px;
     position: absolute;
-    top: 975px;
+    top: 3em;
     width: 30px;
     z-index: 30;
 }
 
 nav.active {
     left: 0;
-    top: 938px;
+    top: 0em;
 	height: 397px;
 }
 
@@ -513,7 +538,7 @@ nav {
   padding-right: .25em;
   position: absolute;
   left: -18em;
-  top: 938px;
+  top: 0em;
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
@@ -529,7 +554,6 @@ nav {
     padding-top: 10%;
     font-size: 25px;
     display: inline-block;
-    padding-left: 25%;
 }
 
 .yes {
@@ -537,7 +561,6 @@ nav {
     padding-top: 10%;
     font-size: 25px;
     display: inline-block;
-    padding-left: 25%;
 }
 
 
@@ -667,13 +690,38 @@ nav {
 }
 
 @media (min-width: 425px){
+	
+*[data-animation="ripple"] {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 300px;
+    font-size: 25px;
+    display: block;
+    outline: none;
+    padding: 18px;
+    color: white;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.3);
+    border: solid 3px;
+    border-color: white;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 14px;
+    font-family: roboto, helvetica;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
 	#mobile-nav {
     background: url(menu-icon.png);
     cursor: pointer;
     left: 2em;
     height: 30px;
     position: absolute;
-    top: 1067px;
+    top: 3em;
     width: 30px;
     z-index: 30;
 }
@@ -691,7 +739,7 @@ nav {
 
 nav.active {
     left: 0;
-    top: 1022px;
+    top: 0em;
     height: 476px;
 }
 
@@ -700,7 +748,7 @@ nav {
   padding-right: .25em;
   position: absolute;
   left: -18em;
-  top: 1022px;
+  top: 0em;
   height: 476px;
   padding-top: 5em;
   box-sizing: border-box;
@@ -825,6 +873,31 @@ ul {
 
 
 @media (min-width: 768px){
+	
+	*[data-animation="ripple"] {
+        position: relative;
+    height: 100%;
+    width: 100%;
+    top: 630px;
+    font-size: 39px;
+    display: block;
+    outline: none;
+    padding: 28px 50px;
+    color: white;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.3);
+    border: solid 3px;
+    border-color: white;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0px;
+    font-family: roboto, helvetica;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
 	.hai {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
@@ -844,21 +917,22 @@ ul {
     left: 4em;
     height: 30px;
     position: absolute;
-    top: 1690px;
+    top: 3em;
     width: 30px;
     z-index: 30;
 }
 
 nav.active {
     left: 0;
-    top: 1630px;
+    top: 0em;
+	height: 46.8em;
 }
 nav {
   background: rgba(41,128,185,1);
   padding-right: .25em;
   position: absolute;
   left: -18em;
-  top: 1630px;
+  top: 0em;
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
@@ -876,7 +950,6 @@ ul{
     padding-top: 6%;
     font-size: 36px;
     display: inline-block;
-    padding-left: 14%;
 }
 
 .coba img {
@@ -1057,38 +1130,6 @@ ul{
 	padding-top:30px;
 }
 
-#mobile-nav {
-    background: url(menu-icon.png);
-    cursor: pointer;
-    left: 4em;
-    height: 30px;
-    position: absolute;
-    top: 1690px;
-    width: 30px;
-    z-index: 30;
-}
-
-nav.active {
-    left: 0;
-    top: 1630px;
-	height: 655px;
-
-}
-
-nav {
-  background: rgba(41,128,185,1);
-  padding-right: .25em;
-  position: absolute;
-  left: -18em;
-  top: 1630px;
-  padding-top: 5em;
-  box-sizing: border-box;
-  z-index: 20;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
-}
-
 ul {
     padding-top: 25%;
 }
@@ -1123,20 +1164,46 @@ ul {
 
 
 @media (min-width: 1024px){
+	
+*[data-animation="ripple"] {
+        position: relative;
+    height: 100%;
+    width: 100%;
+    top: 880px;
+    font-size: 39px;
+    display: block;
+    outline: none;
+    padding: 28px 50px;
+    color: white;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.3);
+    border: solid 3px;
+    border-color: white;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0px;
+    font-family: roboto, helvetica;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
 #mobile-nav {
     background: url(menu-icon.png);
     cursor: pointer;
     left: 4em;
     height: 30px;
     position: absolute;
-    top: 2135px;
+    top: 5em;
     width: 30px;
     z-index: 30;
 }
 
 nav.active {
     left: 0;
-    top: 2063px;
+    top: 0em;
 	height: 724px;
 
 }
@@ -1146,7 +1213,7 @@ nav {
   padding-right: .25em;
   position: absolute;
   left: -18em;
-  top: 2063px;
+  top: 0em;
   padding-top: 5em;
   box-sizing: border-box;
   z-index: 20;
