@@ -1,6 +1,6 @@
-# Mogo
+# Ventas
 
-Mogo adalah aplikasi web untuk agensi dan dilengkapi dengan desain bersih dan modern. Ini mencakup banyak komponen berguna seperti tonggak, akordeon, thumbnail portofolio, carousels testimonial dan widget lainnya.
+Ventas adalah aplikasi web untuk aplikasi seluler yang dirancang untuk majalah perjalanan.
 
 ![alt text](https://github.com/ryansyah19/appd/blob/master/start.png)
 
